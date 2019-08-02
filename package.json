@@ -1,0 +1,32 @@
+{
+  "name": "@bradyhouse/svg-toolkit",
+  "version": "1.0.0",
+  "description": "Domain object model intended for re-use across projects. Each class virtualizes (or models) a specific SVG tag element. ",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradyhouse/svg-toolkit.git"
+  },
+  "keywords": [
+    "es6",
+    "svg"
+  ],
+  "author": "bradyhouse@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bradyhouse/svg-toolkit/issues"
+  },
+  "homepage": "https://github.com/bradyhouse/svg-toolkit#readme",
+  "devDependencies": {
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
